@@ -1,2 +1,4 @@
-# synthetic-detector
-CLIP + Aesthetic Scoring pipeline for AI vs Real image classification. Replication of The Hartford FUEL project using AWS (S3, Lambda, SageMaker) and open-source models.
+# Synthetic Image Detector
+CLIP embeddings + small MLP aesthetic predictor for AI vs Real classification.
+Pipeline: Upload → Preprocess/Compress → CLIP → MLP score → Threshold → Label.
+
